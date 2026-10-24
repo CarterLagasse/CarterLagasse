@@ -11,8 +11,10 @@
 ![](https://komarev.com/ghpvc/?username=CarterLagasse&color=brightgreen)
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue.svg" />
-</picture>
+<div align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue.svg">
+  </picture>
+</div>
