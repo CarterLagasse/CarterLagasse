@@ -13,8 +13,8 @@
 
 <div align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue-dark.svg?v=5">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue.svg?v=5">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/github-snake-blue.svg?v=5">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/snake-green-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/snake-green.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CarterLagasse/CarterLagasse/output/snake-green.svg">
   </picture>
 </div>
