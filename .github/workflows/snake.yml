@@ -24,17 +24,10 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-green.svg?palette=github-light
-            dist/snake-green-dark.svg?palette=github-dark
+            dist/snake-light.svg?color_snake=#1f6feb&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/snake-dark.svg?color_snake=#79c0ff&color_dots=#161b22,#01311f,#034525,#0f6d31,#00c647
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Force snake color
-        run: |
-          sed -i -E 's/(--cs:)[^;}]*/\1#1f6feb/g' dist/snake-green.svg
-          sed -i -E 's/(--cs:)[^;}]*/\1#79c0ff/g' dist/snake-green-dark.svg
-          echo "Light file:"; grep -o -- '--cs:[^;}]*' dist/snake-green.svg | head -1
-          echo "Dark file:"; grep -o -- '--cs:[^;}]*' dist/snake-green-dark.svg | head -1
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
